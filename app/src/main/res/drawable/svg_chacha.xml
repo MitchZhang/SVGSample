@@ -1,0 +1,21 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportHeight="10"
+    android:viewportWidth="10">
+
+    <group
+        android:name="cgroup"
+        android:pivotX="5"
+        android:pivotY="5">
+
+        <path
+            android:name="chacha"
+            android:strokeWidth="0.5"
+            android:strokeColor="#fffefe"
+            android:strokeLineJoin="round"
+            android:strokeLineCap="round"
+            android:pathData="M 9,9 L 1,1 M 9,1 L 1,9"/>
+    </group>
+
+</vector>

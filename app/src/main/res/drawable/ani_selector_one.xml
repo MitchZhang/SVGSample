@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/press"
+        android:state_checked="true"
+        android:drawable="@drawable/svg_duigou"/>
+
+    <item
+        android:id="@+id/normal"
+        android:drawable="@drawable/svg_chacha"/>
+
+
+    <transition
+        android:fromId="@+id/normal"
+        android:toId="@+id/press"
+        android:drawable="@drawable/ani_start_to_muti"/>
+
+    <transition
+        android:fromId="@+id/press"
+        android:toId="@+id/normal"
+        android:drawable="@drawable/ani_muti_to_star"/>
+</animated-selector>

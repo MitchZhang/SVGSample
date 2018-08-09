@@ -1,0 +1,11 @@
+<animated-vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/svg_duigou">
+    <target
+        android:animation="@animator/duigou_change"
+        android:name="duigou"/>
+
+    <target
+        android:animation="@animator/animator_rotation"
+        android:name="dgroup"/>
+</animated-vector>

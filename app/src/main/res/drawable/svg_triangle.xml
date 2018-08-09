@@ -1,0 +1,19 @@
+<vector
+    android:height="50dp"
+    android:viewportHeight="300.0"
+    android:viewportWidth="300.0"
+    android:width="50dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:name="tgroup"
+        android:pivotY="150"
+        android:pivotX="150">
+        <path
+            android:name="triangle"
+            android:fillColor="#ffffff"
+            android:pathData="M100,100 L200,100 L150,200 Z"
+            />
+    </group>
+
+</vector>
